@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background-color: #87ceeb; /* sky blue fallback */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+canvas {
+  display: block;
+  border: 2px solid #fff;
+  box-shadow: 0 0 20px rgba(255,255,255,0.3);
+}
+
+#gameOver {
+  display: none;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+#restartBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
